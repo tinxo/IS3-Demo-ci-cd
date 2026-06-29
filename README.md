@@ -35,8 +35,8 @@ Demo para clase de CI/CD: una app simple de **liquidación de sueldos**, dividid
 Con UV:  
 ```bash
 cd backend
-uv syncpip install -r requirements.txt
-uv run uvicorn app.main:app --reload --port 8000
+uv uv sync
+uv uv run uvicorn app.main:app --reload --port 8000
 ```
 
 Con pip:  
